@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;  
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}.header{
+    background:#010103;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0;left: 0;right: 0;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 6rem;
+
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+
+}
+.header .navbar a:hover{
+    color:#d3ad7f;
+    border-bottom: .1rem solid #d3ad7f;
+    padding-bottom: .5rem;
+}
+.header .icon ion-icon{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.hearder .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    transform:scaleY(0) ;
+    transform-origin:top ;
+}
+.hearder .search-form input{
+    height: 40px;
+    width: 275px;
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+    
+}
+.hearder .search-form label{
+    cursor: pointer;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+    color: #13131a;
+
+}
+.hearder .search-form lable:hover{
+    color:#d3ad7f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background: #13131a;
+    text-align: center;
+
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: 3rem 2rem;
+    color: #fff;
+   border: 1px solid rgba(255,255,255,.3); 
+   font-size: 2rem;
+}
+.footer .links a:hover{
+    color: #d3ad7f;
+}
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+
+}
+.footer .credit span{
+    color:#d3ad7f;
+}
